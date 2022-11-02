@@ -1,0 +1,38 @@
+{
+    "_id": "str",
+    "address": "str",
+    "num_beds": "int",
+    "num_baths": "float",
+    "rent": "int",
+    "upfront_fees": "float",
+    "utilities": {
+        "water": "bool",
+        "sewer": "bool",
+        "gas": "bool",
+        "electric": "bool",
+        "internet": "bool"
+    },
+    "laundry": "bool",
+    "move_in_date": "str",
+    "positives": ["str"],
+    "negatives": ["str"],
+    "notes": "str",
+    "visited": "bool",
+    "link": "str",
+    "contacts": [
+        {
+            "name": "str",
+            "phone": "str",
+            "email": "str",
+            "notes": "str"
+        }
+    ],
+    "status": "str: Previewing, Discussing, Waiting Response, Pending Visit, Applied, Accepted, Rejected, Declined",
+    "interactions": [
+        {
+            "type": "str: Call, Text, Email, Visit, Application, Reject, Accept",
+            "timestamp": "str",
+            "notes": "str"
+        }
+    ]
+}
