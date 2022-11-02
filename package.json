@@ -4,7 +4,8 @@
     "description": "",
     "scripts": {
         "start": "node server/index.js",
-        "build": "cd client && npm install && npm run build"
+        "build": "cd client && npm install && npm run build",
+        "install": "cd server && npm install && cd ../client && npm install"
     },
     "keywords": [],
     "author": "",
